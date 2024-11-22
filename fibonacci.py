@@ -1,0 +1,11 @@
+n=int(input("enter the upper limit: "))
+i=0
+j=1
+print(i,j,end=" ")
+while j<=n:
+    i+=j
+    j+=i
+    if j<=n:
+        print(i,j,end=" ")
+    elif i<=n:
+        print(i,end=" ")
